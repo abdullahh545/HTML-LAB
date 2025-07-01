@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic Reset & Base */
 * {
   box-sizing: border-box;
@@ -281,3 +282,135 @@ a {
     align-items: center;
   }
 }
+=======
+body {
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+background-color: #444;
+ border: 3px solid grey;
+
+}
+
+.container {
+  background: #2d2d2d;
+  border:3px solid #666;
+  width: 1040px;
+  margin: 50px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  color:white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+header {
+  text-align: center;
+font-style: italic;
+  margin-bottom: 5px;
+
+}
+
+
+
+
+main {
+ display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif
+   text-align: justify;
+}
+
+header h1 {
+   font-size: 2.5em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.about-text p {
+ 
+  font-size: 24px;
+  
+} 
+
+
+}
+
+nav {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.Resume-link {
+  color: #08bc47;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  ;
+}
+.footer-link{
+  color: #3ec97a;
+  font-weight: bold;
+  margin: 20px;
+
+}
+
+
+
+
+.divider {
+  margin: 18px;
+  border: none;
+  border-top: 1px solid #888;
+
+}
+.about-content {
+  display: flex;
+align-items: flex-start;
+gap: 30px ;
+
+}
+
+ .image {
+ float: right;
+ 
+ height: auto;
+  margin-left: 20px;
+  margin-right: 10px;
+  ,margin-bottom: 10px;
+
+  border: 3px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  
+
+}
+
+
+main h2 {
+ font-size: 32px; 
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+ .about-text p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-text p2 {
+  line-height: 1.7;
+  margin-right: 20px;
+  font-size: 24px;
+  clear: right;
+}
+>>>>>>> 5eb7d9e (wendy)
